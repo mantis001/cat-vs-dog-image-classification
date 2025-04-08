@@ -1,1 +1,22 @@
 The Cats & Dogs is a foundational problem for a basic CNN(convolutional neural network) model which involves classifying images as a dog or a cat. It involves distinguishing between images of dogs and cats, making it an excellent dataset for learning how to develop, evaluate, and apply deep learning techniques for image classification. This includes designing a reliable test framework to assess model performance, experimenting with parameter adjustments to improve accuracy, and saving/loading the trained model to make predictions on new data.
+<div class = 'alert alert-info'><h2 style= 'text-align:center; color:black'> Table of Content </h2></div>
+
+1. [Data Description](#1)
+1. [Loading Libraries](#2)
+1. [Data Extraction](#3)
+1. [Data Exploration](#4)
+1. [Train Test Split](#5)
+   1. [Using Dataframe](#6)
+   1. [Using Directory](#7)
+1. [Data Preparation](#8)
+   1. [Image Data Generator](#9)
+      1. [Using Dataframe](#10)
+      1. [Using Directory](#11)
+1. [Deep Learning Model](#12)
+   1. [Model Layer](#13)
+   1. [Callbacks](#14)
+   1. [Compile Model](#15)
+   1. [Fit Model](#16)
+   1. [Plot Result](#17)
+   1. [Evaluation](#18)
+1. [Prediction](#19)
